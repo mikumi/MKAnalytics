@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MKAnalytics_Example' do
+  pod 'MKAnalytics', :path => '../'
+
+  target 'MKAnalytics_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
