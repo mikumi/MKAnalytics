@@ -1,11 +1,13 @@
-use_frameworks!
-
 target 'MKAnalytics_Example' do
   pod 'MKAnalytics', :path => '../'
+  pod 'MKAnalytics/Crashlytics', :path => '../'
+  pod 'MKAnalytics/Facebook', :path => '../'
+  pod 'MKAnalytics/GoogleAnalytics', :path => '../'
+  pod 'MKAnalytics/Mixpanel', :path => '../'
 
   target 'MKAnalytics_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
