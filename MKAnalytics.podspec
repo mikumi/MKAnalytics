@@ -31,26 +31,26 @@ Crashlytics or Facebook Analytics. Implementing the MKAnalyticsService.h allows 
 
   s.subspec 'Crashlytics' do |sp|
     sp.source_files = 'MKAnalytics/Classes/Crashlytics/*'
-    sp.dependency 'MKAnalytics/Core'
+    sp.dependency 'MKAnalytics/Core', '~> 0.1.0'
     sp.dependency 'Fabric', '~> 1.6'
     sp.dependency 'Crashlytics', '~> 3.8'
   end
 
   s.subspec 'Facebook' do |sp|
     sp.source_files = 'MKAnalytics/Classes/Facebook/*'
-    sp.dependency 'MKAnalytics/Core'
+    sp.dependency 'MKAnalytics/Core', '~> 0.1.0'
     sp.dependency 'FBSDKCoreKit', '~> 4.16'
   end
 
   s.subspec 'GoogleAnalytics' do |sp|
     sp.source_files = 'MKAnalytics/Classes/GoogleAnalytics/*'
-    sp.dependency 'MKAnalytics/Core'
+    sp.dependency 'MKAnalytics/Core', '~> 0.1.0'
     sp.dependency 'GoogleAnalytics', '~> 3.14'
   end
 
   s.subspec 'Mixpanel' do |sp|
     sp.source_files = 'MKAnalytics/Classes/Mixpanel/*'
-    sp.dependency 'MKAnalytics/Core'
+    sp.dependency 'MKAnalytics/Core', '~> 0.1.0'
     sp.dependency 'Mixpanel', '~> 3.0.4'
   end
 
