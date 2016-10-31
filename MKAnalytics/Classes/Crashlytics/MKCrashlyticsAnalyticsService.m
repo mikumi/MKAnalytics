@@ -42,7 +42,7 @@
 
 - (void)aliasUser:(NSString *)alias
 {
-    // Aliasing is not supported by Google Analytics
+    [self identifyUserWithId:alias properties:nil];
 }
 
 - (void)setUserProperties:(NSDictionary<NSString *, id> *)properties

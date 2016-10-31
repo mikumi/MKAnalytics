@@ -45,7 +45,7 @@
 - (void)aliasUser:(NSString *)alias
 {
     [self.mixpanel createAlias:alias forDistinctID:self.mixpanel.distinctId];
-    [self.mixpanel identify:self.mixpanel.distinctId];
+    [self.mixpanel identify:alias];
 }
 
 - (void)setUserProperties:(NSDictionary<NSString *, id> *)properties
