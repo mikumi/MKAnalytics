@@ -51,7 +51,7 @@ Crashlytics or Facebook Analytics. Implementing the MKAnalyticsService.h allows 
   s.subspec 'Mixpanel' do |sp|
     sp.source_files = 'MKAnalytics/Classes/Mixpanel/*'
     sp.dependency 'MKAnalytics/Core', '~> 0.1.0'
-    sp.dependency 'Mixpanel', '~> 3.0.4'
+    sp.dependency 'Mixpanel', '~> 3.0'
   end
 
 end
